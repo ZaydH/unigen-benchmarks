@@ -8,7 +8,7 @@ The format of these files follow DIMACS format. We extend DIMACS format to allow
 Every benchmark has few lines with "c ind" prefix to specify independent support. 
 For example if the sampling set is {10, 13, 15, 16, 25, 28, 39, 41, 43, 45, 5, 53, 6, 69, 78, 9, 93}
 
-c ind 10 13 15 16 25 28 39 41 43 45 0
+c ind 10 13 15 16 25 28 39 41 43 45 0  
 c ind 5 53 6 69 78 9 93 0
 
 Note that each "c ind" line lists only only 10 variables at most, followed by a closing '0'.
